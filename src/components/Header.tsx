@@ -4,23 +4,25 @@ import Logo from "@/assets/icon/logo.png";
 import Link from "next/link";
 
 const Header = () => {
-	return (
-		<div className="h-[68px] bg-[#2A2A2A] text-white flex items-center justify-between px-[80px]">
-			<div className="flex gap-1.5 items-center justify-center">
-				<Image src={Logo} width={24} height={24} alt="logo" />
-				<h1 className="font-medium text-2xl">Aktiv</h1>
-			</div>
-			<div className="gap-[60px] flex items-center justify-center text-base font-medium">
-				<Link href="/login">Features</Link>
-				<Link href="/login">FAQ</Link>
-				<Link href="/login">Be an Ambassador</Link>
-				<Link href="/login">Merch</Link>
-			</div>
-			<div>
-				<button className="bg-[#3399FF] px-4 py-2 rounded-2xl font-medium text-base">Get App</button>
-			</div>
-		</div>
-	);
+  return (
+    <div className="fixed z-50 flex h-[68px] w-full items-center justify-between bg-[#FFFFFF1A] px-[80px] text-white backdrop-blur-[60px]">
+      <Link className="flex items-center justify-center gap-1.5" href={"/"}>
+        <Image src={Logo} width={24} height={24} alt="logo" />
+        <h1 className="text-2xl font-medium">Aktiv</h1>
+      </Link>
+      <div className="flex items-center justify-center gap-[60px] text-base font-medium">
+        <Link href="/login">Features</Link>
+        <Link href="/login">FAQ</Link>
+        <Link href="/be-an-ambassador">Be an Ambassador</Link>
+        <Link href="/merch">Merch</Link>
+      </div>
+      <div>
+        <button className="rounded-2xl bg-[#3399FF] px-4 py-2 text-base font-medium">
+          Get App
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default Header;
