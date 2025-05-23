@@ -1,5 +1,4 @@
 import Image from "next/image";
-import StarImage from "@/assets/icon/star.svg";
 import Card from "./components/Card";
 import PuzzleIcon from "@/assets/icon/puzzle.png";
 import AppStoreIcon from "@/assets/icon/app-store.svg";
