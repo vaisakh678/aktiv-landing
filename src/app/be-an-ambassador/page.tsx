@@ -32,6 +32,14 @@ const page = () => {
           </div>
         </div>
       </section>
+
+      <section className="flex min-h-[340px] items-center justify-center">
+        <p className="max-w-[1000px] text-center text-[32px] font-medium leading-[44px]">
+          Aktiv is more than an app - it’s a movement. As an ambassador, you’ll
+          play a key role in growing our community, spreading the word, and
+          bringing people together through fitness and sport.
+        </p>
+      </section>
     </div>
   );
 };

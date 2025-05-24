@@ -93,7 +93,7 @@ const page = () => {
         />
         <div className="flex h-full max-w-[765px] items-center justify-center bg-gradient-to-r from-[#121212] to-[#12121200]">
           <div className="max-w-[615px]">
-            <h1 className="text-[48px] font-semibold leading-[68px]">
+            <h1 className="font-poppins text-[48px] font-semibold leading-[68px]">
               Community-first merch, shipping soon.
             </h1>
             <p className="mt-4 text-xl font-normal">
@@ -108,7 +108,7 @@ const page = () => {
           <MerchCard key={index} title={title} image={image} path={path} />
         ))}
         <MerchCardContainer className="flex items-center justify-center bg-gradient-to-b from-[#3399FF] to-[#00E676]">
-          <p className="w-[300px] text-center text-2xl font-medium leading-9 text-[#121212]">
+          <p className="font-poppins w-[300px] text-center text-2xl font-medium leading-9 text-[#121212]">
             More drops coming soon, available to purchase at launch.
           </p>
         </MerchCardContainer>
@@ -120,7 +120,7 @@ const page = () => {
         </div>
         <div className="rounded-3xl bg-gradient-to-r from-[#3399FF] to-[#00E676] p-11">
           <div className="max-w-[585px]">
-            <h1 className="text-[48px] font-medium leading-[64px]">
+            <h1 className="font-poppins text-[48px] font-medium leading-[64px]">
               Represent Aktiv, Get{" "}
               <strong className="font-semibold">Free Merch.</strong>
             </h1>
@@ -129,7 +129,7 @@ const page = () => {
             </p>
           </div>
           <button
-            className="mt-7 h-[52px] w-full max-w-[414px] rounded-xl bg-gradient-to-r from-[#3399FF] to-[#00E676] text-center text-xl font-medium hover:opacity-80"
+            className="font-poppins mt-7 h-[52px] w-full max-w-[414px] rounded-xl bg-gradient-to-r from-[#3399FF] to-[#00E676] text-center text-xl font-medium hover:opacity-80"
             style={{
               boxShadow: "4px 0px 18.9px 0px #AFD7FFCC inset",
             }}
