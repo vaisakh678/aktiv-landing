@@ -21,7 +21,7 @@ const Footer = () => {
           height={32}
           alt="logo"
         />
-        <h4 className="text-[28px] font-medium">Aktiv</h4>
+        <h4 className="font-poppins text-[28px] font-medium">Aktiv</h4>
       </div>
       <div className="flex items-center justify-center">
         <Link href={"/privacy-policy"} className="text-base font-medium">

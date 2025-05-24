@@ -42,9 +42,17 @@ const LandingPageAccordion = () => {
     <div>
       <Accordion type="single" collapsible className="w-full">
         {accordionData.map((item, index) => (
-          <AccordionItem value={`item-${index}`} key={index}>
-            <AccordionTrigger>{item.title}</AccordionTrigger>
-            <AccordionContent>{item.desc}</AccordionContent>
+          <AccordionItem
+            value={`item-${index}`}
+            key={index}
+            className="border-b border-[#3399FF]"
+          >
+            <AccordionTrigger className="font-poppins text-2xl font-medium">
+              {item.title}
+            </AccordionTrigger>
+            <AccordionContent className="text-base font-normal">
+              {item.desc}
+            </AccordionContent>
           </AccordionItem>
         ))}
       </Accordion>

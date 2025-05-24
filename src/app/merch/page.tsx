@@ -2,6 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import React from "react";
 import MerchCoverImage from "@/assets/images/merch.png";
 import { cn } from "../../lib/utils";
+import GradientCircle1 from "@/assets/images/gradient-circle-1.svg";
 
 import TShirtImage from "@/assets/images/tshirt.png";
 import Link from "next/link";
@@ -113,7 +114,10 @@ const page = () => {
         </MerchCardContainer>
       </section>
 
-      <section className="mb-[79px] px-[80px]">
+      <section className="relative mb-[79px] px-[80px]">
+        <div className="absolute h-full w-full">
+          <GradientCircle1 className="absolute right-0 top-0 size-[480px]" />
+        </div>
         <div className="rounded-3xl bg-gradient-to-r from-[#3399FF] to-[#00E676] p-11">
           <div className="max-w-[585px]">
             <h1 className="text-[48px] font-medium leading-[64px]">
