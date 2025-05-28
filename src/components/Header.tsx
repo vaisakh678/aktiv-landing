@@ -11,13 +11,15 @@ const Header = () => {
         <h1 className="font-poppins text-2xl font-medium">Aktiv</h1>
       </Link>
       <div className="flex items-center justify-center gap-[60px] text-base font-medium">
-        <Link href="/login">Features</Link>
-        <Link href="/login">FAQ</Link>
+        <Link href="/#features">Features</Link>
+        <Link href="/#faq" scroll>
+          FAQ
+        </Link>
         <Link href="/be-an-ambassador">Be an Ambassador</Link>
         <Link href="/merch">Merch</Link>
       </div>
       <div>
-        <button className="font-poppins rounded-2xl bg-[#3399FF] px-4 py-2 text-base font-medium hover:opacity-90">
+        <button className="rounded-2xl bg-[#3399FF] px-4 py-2 font-poppins text-base font-medium hover:opacity-90">
           Get App
         </button>
       </div>
