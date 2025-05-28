@@ -1,5 +1,4 @@
 import React from "react";
-import GradientCircle1 from "@/assets/images/gradient-circle-1.svg";
 
 const AmbassadorSection = () => {
   return (

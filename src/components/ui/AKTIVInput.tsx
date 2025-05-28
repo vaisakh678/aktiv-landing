@@ -33,4 +33,6 @@ export const AKTIVInput = forwardRef<HTMLInputElement, AKTIVInputProps>(
   },
 );
 
+AKTIVInput.displayName = "AKTIVInput";
+
 export default AKTIVInput;

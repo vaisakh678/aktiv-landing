@@ -1,5 +1,3 @@
-import BgShape2 from "@/assets/images/shape-2.svg";
-import BgShape3 from "@/assets/images/shape-3.svg";
 import HeroSection from "./components/HeroSection";
 import WhyAktivSection from "./components/WhyAktivSection";
 import FAQSection from "./components/FAQSection";

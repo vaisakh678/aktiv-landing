@@ -1,5 +1,4 @@
 import React from "react";
-import BgShape4 from "@/assets/icon/Vector 29.svg";
 import AppStoreIcon from "@/assets/icon/app-store.svg";
 import PlayStoreIcon from "@/assets/icon/play-store.svg";
 

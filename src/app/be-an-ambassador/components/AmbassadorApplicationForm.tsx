@@ -264,7 +264,7 @@ const AmbassadorApplicationForm = () => {
 
               <div className="flex w-full flex-col">
                 <h1 className="mb-3 text-2xl font-semibold">
-                  Anything else you'd like to share with us? (Optional)*
+                  Anything else you&apos;d like to share with us? (Optional)*
                 </h1>
                 <AKTIVTextarea
                   {...register("additionalInfo")}

@@ -1,11 +1,9 @@
 import React from "react";
-import StarImage from "@/assets/icon/star.svg";
 
 const HeroSection = () => {
   return (
     <section className="relative flex h-[calc(100svh)] pt-[68px]">
       <div className="flex flex-1 items-center justify-between">
-        {/* <StarImage /> */}
         <div className="flex max-w-[673px] flex-col gap-5">
           <h1 className="bg-gradient-to-r from-[#3399FF] to-[#00E676] bg-clip-text font-poppins text-[40px] font-semibold leading-[52px] text-transparent">
             Find Your Perfect Workout Buddy and Smart AI support

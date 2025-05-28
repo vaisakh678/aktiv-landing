@@ -5,7 +5,7 @@ interface ToggleButtonProps {
   isOpen?: boolean;
 }
 
-const ToggleButton: React.FC<ToggleButtonProps> = ({ onClick, isOpen }) => {
+const ToggleButton: React.FC<ToggleButtonProps> = ({ onClick }) => {
   return (
     <button
       className="flex flex-col items-center justify-center gap-1 md:hidden"
