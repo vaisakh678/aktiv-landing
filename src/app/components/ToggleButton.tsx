@@ -8,7 +8,7 @@ interface ToggleButtonProps {
 const ToggleButton: React.FC<ToggleButtonProps> = ({ onClick }) => {
   return (
     <button
-      className="flex flex-col items-center justify-center gap-1 md:hidden"
+      className="flex size-[50px] flex-col items-center justify-center gap-1 md:hidden"
       onClick={onClick}
     >
       <div className="h-0.5 w-4 bg-white" />
