@@ -40,7 +40,7 @@ const MerchCard: React.FC<MerchCardProps> = ({ title, image, path }) => {
         alt={title}
         width={200}
         height={200}
-        className="object-fit w-full"
+        className="h-full w-full object-contain"
       />
       <div className="absolute bottom-0 left-0 right-0 flex h-[200px] flex-col items-center justify-end bg-gradient-to-t from-[#121212] to-[#12121200]">
         <h2 className="mb-12 text-[28px] font-medium">{title}</h2>
@@ -79,7 +79,7 @@ const merchData = [
 
 const MerchGridSection = () => {
   return (
-    <section className="grid grid-cols-3 gap-5 px-[80px] py-[118px]">
+    <section className="grid grid-cols-1 gap-5 py-[118px] sm:grid-cols-2 md:grid-cols-3">
       {merchData.map(({ title, image, path }, index) => (
         <MerchCard key={index} title={title} image={image} path={path} />
       ))}

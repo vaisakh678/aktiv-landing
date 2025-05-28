@@ -4,7 +4,7 @@ import LandingPageAccordion from "./LandingPageAccordion";
 const FAQSection = () => {
   return (
     <section
-      className="mt-[140px] flex scroll-mt-[130px] justify-between px-[80px]"
+      className="mt-[140px] flex scroll-mt-[130px] flex-col justify-between gap-10 xl:flex-row"
       id="faq"
     >
       <div className="max-w-[460px]">
@@ -14,7 +14,7 @@ const FAQSection = () => {
           info, don’t hesitate to reach out.
         </p>
       </div>
-      <div className="w-full max-w-[630px]">
+      <div className="w-full lg:max-w-[630px]">
         <LandingPageAccordion />
       </div>
     </section>

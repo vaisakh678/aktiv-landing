@@ -87,7 +87,7 @@ const Pair = ({ label, value }: { label: string; value: React.ReactNode }) => {
 
 const Page: React.FC = () => {
   return (
-    <div className="flex flex-col gap-6 px-[80px] pb-16 pt-[calc(68px+85px)]">
+    <div className="flex flex-col gap-6 px-4 pb-16 pt-[calc(68px+85px)] lg:px-10 xl:px-[80px]">
       <div className="flex flex-col gap-2">
         <h1 className="text-[28px] font-semibold text-[#3399FF]">
           Privacy Policy

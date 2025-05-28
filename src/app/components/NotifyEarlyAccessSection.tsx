@@ -5,11 +5,8 @@ import PlayStoreIcon from "@/assets/icon/play-store.svg";
 
 const NotifyEarlyAccessSection = () => {
   return (
-    <section className="relative px-[80px] pb-[81px] pt-[120px]">
-      <div>
-        <BgShape4 className="absolute right-0 -z-10 h-full" />
-      </div>
-      <div className="gradient-border flex justify-between overflow-hidden rounded-3xl bg-[#F2F2F233] p-11 backdrop-blur-[20px] before:rounded-3xl before:bg-gradient-to-r before:from-[#00E676] before:to-[#00E67600]">
+    <section className="pb-[81px] pt-[120px]">
+      <div className="gradient-border flex flex-col justify-between gap-10 overflow-hidden rounded-3xl bg-[#F2F2F233] p-6 backdrop-blur-[20px] before:rounded-3xl before:bg-gradient-to-r before:from-[#00E676] before:to-[#00E67600] md:p-11 xl:flex-row">
         <div className="w-full max-w-[480px]">
           <div>
             <h2 className="font-poppins text-[40px] font-medium leading-[56px]">

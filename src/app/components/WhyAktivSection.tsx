@@ -12,14 +12,14 @@ import ConsistencyIcon from "@/assets/icon/consistency.png";
 
 const WhyAktivSection = () => {
   return (
-    <section className="relative scroll-mt-[120px] px-[80px]" id="features">
+    <section className="relative scroll-mt-[120px]" id="features">
       <div className="bg-green-400x absolute right-0 top-0 -z-10">
         <WhatAkivBg />
       </div>
       <h2 className="mb-[60px] text-center font-poppins text-[40px] font-medium">
         Why Aktiv?
       </h2>
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
         <Card
           icon={
             <Image src={PuzzleIcon} alt="Puzzle Icon" width={48} height={48} />

@@ -12,8 +12,8 @@ import MediumIcon from "@/assets/icon/medium.svg";
 
 const Footer = () => {
   return (
-    <div className="grid h-[128px] grid-cols-3 grid-rows-1 bg-[#3E3E3E] px-[80px]">
-      <div className="flex items-center justify-start gap-1.5">
+    <div className="grid min-h-[128px] grid-cols-1 grid-rows-3 items-center justify-center bg-[#3E3E3E] px-4 py-6 md:grid-cols-3 md:grid-rows-1 lg:px-10 xl:px-[80px]">
+      <div className="flex items-center justify-center gap-1.5 md:justify-start">
         <Image
           src={Logo}
           className="size-8"
@@ -24,11 +24,14 @@ const Footer = () => {
         <h4 className="font-poppins text-[28px] font-medium">Aktiv</h4>
       </div>
       <div className="flex items-center justify-center">
-        <Link href={"/privacy-policy"} className="text-base font-medium">
+        <Link
+          href={"/privacy-policy"}
+          className="text-base font-medium hover:underline"
+        >
           Privacy Policy
         </Link>
       </div>
-      <div className="flex items-center justify-end gap-1.5">
+      <div className="flex items-center justify-center gap-1.5 md:justify-end">
         <button className="flex size-8 items-center justify-center rounded-full bg-[#3399FF]">
           <InstagramIcon />
         </button>

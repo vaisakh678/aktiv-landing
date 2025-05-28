@@ -8,10 +8,10 @@ const page = () => {
   return (
     <div className="">
       <MerchHeroSection />
-
-      <MerchGridSection />
-
-      <AmbassadorSection />
+      <div className="px-4 lg:px-10 xl:px-[80px]">
+        <MerchGridSection />
+        <AmbassadorSection />
+      </div>
     </div>
   );
 };

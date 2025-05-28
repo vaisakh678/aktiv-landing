@@ -23,7 +23,7 @@ const AKTIVLabelWrapper: React.FC<LabelWrapperProps> = ({
         </label>
       ) : null}
       {children}
-      <p className={cn("mt-2 flex", cn({ "text-red-500": error }))}>
+      <p className={cn("mt-2 flex text-xs", cn({ "text-red-600": error }))}>
         {helperText}
       </p>
     </div>
