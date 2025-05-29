@@ -2,9 +2,9 @@ import React from "react";
 
 const AmbassadorHeroSection = () => {
   return (
-    <section className="relative h-svh bg-[url('/ambassador.png')] bg-cover bg-center bg-no-repeat">
-      <div className="flex h-full max-w-[765px] items-center justify-center bg-gradient-to-r from-[#121212] to-[#12121200]">
-        <div className="max-w-[615px]">
+    <section className="h-svh bg-[url('/ambassador.png')] bg-cover bg-center bg-no-repeat">
+      <div className="flex h-full max-w-[765px] items-center justify-center bg-gradient-to-r from-[#121212] to-[#12121200] px-4 md:px-10 xl:px-[80px]">
+        <div className="max-w-[615px] text-center md:text-left">
           <h1 className="text-[48px] font-semibold leading-[68px]">
             Be an Aktiv Ambassador
           </h1>

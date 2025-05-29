@@ -6,9 +6,9 @@ import AmbassadorSection from "./components/AmbassadorSection";
 
 const page = () => {
   return (
-    <div className="">
+    <div className="flex flex-col gap-24 pb-24">
       <MerchHeroSection />
-      <div className="px-4 lg:px-10 xl:px-[80px]">
+      <div className="flex flex-col gap-24 px-4 lg:px-10 xl:px-[80px]">
         <MerchGridSection />
         <AmbassadorSection />
       </div>

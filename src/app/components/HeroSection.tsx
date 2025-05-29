@@ -12,7 +12,7 @@ const HeroSection = () => {
             The all-in-one app to help you stay on track
           </p>
 
-          <div className="mt-16">
+          <div className="mt-16 hidden">
             <p className="mb-3 text-xl font-medium">
               Sign up now to get early access
             </p>

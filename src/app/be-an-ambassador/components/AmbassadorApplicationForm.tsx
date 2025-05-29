@@ -84,7 +84,7 @@ const AmbassadorApplicationForm = () => {
   console.log("err: ", errors);
 
   return (
-    <div className="w-full px-[80px]">
+    <div className="w-full">
       <div className="flex flex-col items-center justify-center">
         <div className="max-w-[530px]">
           <h1 className="text-center font-poppins text-[40px] font-medium">
@@ -115,7 +115,7 @@ const AmbassadorApplicationForm = () => {
           >
             {/*  */}
 
-            <div className="flex gap-24">
+            <div className="flex flex-col gap-12 lg:flex-row lg:gap-24">
               <div className="flex flex-1 flex-col gap-12">
                 <div className="flex flex-col gap-8">
                   <h1 className="text-2xl font-semibold">Personal Details</h1>
@@ -237,7 +237,7 @@ const AmbassadorApplicationForm = () => {
               <div className="flex w-full flex-col gap-8">
                 <h1 className="text-2xl font-semibold">Social Links*</h1>
 
-                <div className="flex w-full gap-5">
+                <div className="flex w-full flex-col gap-5 md:flex-row">
                   <AKTIVInput
                     className="w-full"
                     label="Instagram"
@@ -275,7 +275,7 @@ const AmbassadorApplicationForm = () => {
             </div>
 
             <button
-              className="flex h-[60px] w-full max-w-[630px] cursor-pointer items-center justify-center rounded-[12px] bg-[#3399FF] text-black hover:opacity-80 disabled:opacity-90"
+              className="flex h-[60px] w-full cursor-pointer items-center justify-center rounded-[12px] bg-[#3399FF] text-black hover:opacity-80 disabled:opacity-90 lg:max-w-[630px]"
               type="submit"
             >
               <RotateCw className="hidden animate-spin group-disabled:flex" />

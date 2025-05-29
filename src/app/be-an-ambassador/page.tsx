@@ -8,14 +8,15 @@ import AmbassadorApplicationForm from "./components/AmbassadorApplicationForm";
 
 const page = () => {
   return (
-    <div>
+    <div className="flex flex-col gap-24">
       <AmbassadorHeroSection />
       <AmbassadorHighlightSection />
       <AmbassadorMovementSection />
-      <WhatYouDoSection />
-      <WhatYouGetSection />
-
-      <AmbassadorApplicationForm />
+      <div className="mx-4 flex flex-col gap-24 md:mx-10 lg:mx-[80px]">
+        <WhatYouDoSection />
+        <WhatYouGetSection />
+        <AmbassadorApplicationForm />
+      </div>
     </div>
   );
 };

@@ -7,8 +7,8 @@ const MerchHeroSection = () => {
         className="flex h-full max-w-[765px] items-center justify-center bg-gradient-to-r from-[#121212] to-[#12121200]"
         style={{}}
       >
-        <div className="max-w-[615px]">
-          <h1 className="font-poppins text-[48px] font-semibold leading-[68px]">
+        <div className="max-w-[615px] text-center md:text-left">
+          <h1 className="font-poppins text-[48px] font-semibold leading-tight md:leading-[68px]">
             Community-first merch, shipping soon.
           </h1>
           <p className="mt-4 text-xl font-normal">

@@ -7,8 +7,8 @@ import BadgeIcon from "@/assets/icon/badge.png";
 
 const AmbassadorHighlightSection = () => {
   return (
-    <section className="flex min-h-[408px] items-center justify-center">
-      <div className="flex w-full max-w-[1000px] items-center justify-between">
+    <section className="flex items-center justify-center">
+      <div className="flex w-full max-w-[1000px] flex-col items-center justify-between gap-20 lg:flex-row">
         <div className="flex flex-col items-center">
           <div className="flex size-[140px] items-center justify-center rounded-3xl bg-[#3399FF]">
             <Image

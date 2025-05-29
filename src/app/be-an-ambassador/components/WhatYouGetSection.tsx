@@ -50,11 +50,11 @@ const whatYouWillGet = [
 
 const WhatYouGetSection = () => {
   return (
-    <section className="p-[80px]">
-      <h1 className="mb-[64px] text-center text-[40px] font-semibold">
+    <section className="">
+      <h1 className="mb-14 text-center text-[40px] font-semibold">
         What You Get
       </h1>
-      <div className="grid grid-cols-1 gap-x-[96px] gap-y-[48px] md:grid-cols-2 xl:grid-cols-3">
+      <div className="grid grid-cols-1 gap-x-[96px] gap-y-[48px] pl-12 md:grid-cols-2 xl:grid-cols-3">
         {whatYouWillGet.map((item, idx) => (
           <WhatYouGetCard {...item} key={idx} />
         ))}

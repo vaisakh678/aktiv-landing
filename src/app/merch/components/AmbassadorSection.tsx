@@ -2,7 +2,7 @@ import React from "react";
 
 const AmbassadorSection = () => {
   return (
-    <section className="relative mb-[79px]">
+    <section className="relative">
       {/* <div className="absolute h-full w-full">
         <GradientCircle1 className="absolute right-0 top-0 size-[480px]" />
       </div> */}

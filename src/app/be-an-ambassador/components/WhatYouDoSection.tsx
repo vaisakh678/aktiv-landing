@@ -10,7 +10,7 @@ const WhatYouDoCard: React.FC<WhatYouDoCardProps> = ({
   badgeNumber,
 }) => {
   return (
-    <div className="min-h-[242px] max-w-[220px] gap-[48px] rounded-2xl border border-white/80 bg-white/25 p-5 backdrop-blur-[60px]">
+    <div className="min-h-[242px] gap-[48px] rounded-2xl border border-white/80 bg-white/25 p-5 backdrop-blur-[60px] lg:max-w-[220px]">
       <div className="text-[48px] font-medium">{badgeNumber}</div>
       <p className="text-xl font-medium">{content}</p>
     </div>
@@ -43,8 +43,8 @@ const whatYouWillDo = [
 
 const WhatYouDoSection = () => {
   return (
-    <section className="p-[80px]">
-      <h1 className="mb-[64px] text-center text-[40px] font-semibold">
+    <section className="">
+      <h1 className="mb-14 text-center text-[40px] font-semibold">
         What You’ll Do
       </h1>
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
