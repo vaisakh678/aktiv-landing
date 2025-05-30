@@ -267,6 +267,7 @@ const AmbassadorApplicationForm = () => {
                   Anything else you&apos;d like to share with us? (Optional)*
                 </h1>
                 <AKTIVTextarea
+                  className="w-full max-w-[845px]"
                   {...register("additionalInfo")}
                   helperText={errors.additionalInfo?.message}
                   error={!!errors.additionalInfo}

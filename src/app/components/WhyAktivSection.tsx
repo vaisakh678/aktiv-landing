@@ -1,5 +1,4 @@
 import React from "react";
-import WhatAkivBg from "@/assets/icon/what-aktiv-bg.svg";
 import Image from "next/image";
 import Card from "./Card";
 import PuzzleIcon from "@/assets/icon/puzzle.png";
@@ -13,9 +12,6 @@ import ConsistencyIcon from "@/assets/icon/consistency.png";
 const WhyAktivSection = () => {
   return (
     <section className="relative scroll-mt-[120px]" id="features">
-      <div className="bg-green-400x absolute right-0 top-0 -z-10">
-        <WhatAkivBg />
-      </div>
       <h2 className="mb-[60px] text-center font-poppins text-[40px] font-medium">
         Why Aktiv?
       </h2>
